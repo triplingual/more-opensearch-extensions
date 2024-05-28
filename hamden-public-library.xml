@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <LongName>Hamden Public Library</LongName>
+  <Description>Library Catalog Search</Description>
+  <Image height="16" width="16" type="image/png">https://hm.catalog.lionlibraries.org/interface/themes/lion/images/favicon.png</Image>
+  <Contact>pika@lioninc.org</Contact>
+  <Developer>Marmot Library Network</Developer>
+  <Attribution>Copyright 2019, Marmot Library Network, All Rights Reserved</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <Url type="text/html" method="get" template="https://hm.catalog.lionlibraries.org/Search/Results?lookfor={searchTerms}&amp;page={startPage?}"/>
+  <Url type="application/rss+xml" method="get" template="https://hm.catalog.lionlibraries.org/Search/Results?lookfor={searchTerms}&amp;view=rss"/>
+  <Url type="application/json" rel="suggestions" method="get" template="https://hm.catalog.lionlibraries.org/Search/Suggest?lookfor={searchTerms}&amp;format=JSON"/>
+</OpenSearchDescription>
